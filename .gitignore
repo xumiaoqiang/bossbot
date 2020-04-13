@@ -1,0 +1,5 @@
+build
+bossbot.egg-info
+dist
+.idea
+venv
