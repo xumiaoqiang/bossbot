@@ -7,6 +7,8 @@ bossbot 是一个用 python 实现的、基于boss直聘 websocket 协议的机�
 
 本项目 github 地址： <https://github.com/xmiaoq/bossbot>
 
+逆向过程记录见简书地址: <https://www.jianshu.com/p/fde49e54dbf5>
+
 你可以通过扩展 bossbot 来实现：
 
 * 监控、收集 boss直聘 消息
@@ -30,7 +32,7 @@ bossbot 是一个用 python 实现的、基于boss直聘 websocket 协议的机�
 ```python
 from bossbot import BossBot
 
-class Bot(bossBot):
+class Bot(BossBot):
 
     def on_text_message(self, data, boss_id, msg):
         '''
